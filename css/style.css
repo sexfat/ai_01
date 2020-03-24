@@ -9,12 +9,18 @@ header {
   color: #ffe4c4;
 }
  
-.w1 {
+.logo {
   font-size: 120px;
+  color: blue;
+  text-align: center;
+  width: 460px;
+  height: 400px;
+  background-color: rgb(103, 255, 2);
+  font-weight: 900;
 }
 
 #title {
-   font-size: 200px;
+   font-size: 20px;
 }
 
 
