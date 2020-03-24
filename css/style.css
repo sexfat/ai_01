@@ -9,7 +9,7 @@ header {
   color: #ffe4c4;
 }
  
-.logo {
+.logo  {
   font-size: 120px;
   color: blue;
   text-align: center;
@@ -22,6 +22,19 @@ header {
 #title {
    font-size: 20px;
 }
+
+
+#title , .logo {
+color : yellow;
+}
+.wrapper > .content > .area01 {
+    height: 300px;
+    background-color: #9dff00;
+}
+
+
+
+
 
 
 
