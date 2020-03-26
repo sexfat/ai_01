@@ -96,13 +96,15 @@ img {
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
 
 article {
-    width: 1160px;
+    max-width: 1160px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -119,21 +121,15 @@ article .img-desc {
 }
 
 
-@media all and (max-width:1200px){
- 
-   
+/* @media all and (max-width:1200px){
+    
 .wrapper {
     width: 100%;
     margin: 0 auto;
-  
-  }
+}
   article {
     width: 100%;
     margin: 0 auto;
 }
-  
-
-
-
-}
+} */
 
