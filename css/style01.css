@@ -188,12 +188,25 @@ article .img-desc {
       text-align: right;
   }
   
+/* 清除浮動 */
+.clearfix {
+    clear: both;
+}
+
 
   .table {
       height: 600px;
+      width: 400px;
+      margin: 40px auto 0;
+
   }
    table ,tr,td {
        border: 1px solid #000;
+       border-collapse: collapse;
+   }
+
+   table td {
+       padding: 0 20px;
    }
 
 
