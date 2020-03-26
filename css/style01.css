@@ -1,5 +1,5 @@
 body {
-    padding: 40px 0 0;
+    padding: 0;
     margin: 0;
     font-family: 'Noto Sans TC', sans-serif;
     /* background-color: rgb(190, 190, 190); */
@@ -136,4 +136,43 @@ article .img-desc {
     margin: 0 auto;
 }
 } */
+
+.box-left {
+
+  width: 300px;
+  height: 100px;
+  background-color: rgb(255, 187, 0);
+
+}
+
+
+.box-right {
+
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 200, 47);
+  
+  }
+
+
+  .top_bar {
+
+    height: 50px;
+ 
+    margin-bottom: 40px;
+  }
+
+  .top_bar .left {
+     width: 300px;
+     float: left; 
+  }
+  .top_bar .right {
+     text-align: right;
+     float: right;
+  }
+
+
+
+
+
 
