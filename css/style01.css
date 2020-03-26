@@ -35,23 +35,27 @@ nav ul  {
 }
 
 nav ul li {
-  padding:  10px 30px;  
+  padding:  10px 30px; 
   display: inline-block;
 
 }
 
 nav ul li a {
   text-decoration:none;
+  
   color: rgb(58, 16, 82);
   font-size: 20px;
+
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* text-decoration: overline; */
     /* text-decoration: line-through; */
-    padding-bottom: 10px;
-    color: rgb(171, 41, 204);
+    /* border-bottom: 1px solid #ab29cc; */
+    border-bottom:2px solid #ab29cc;
+    padding-bottom: 2px;
+    color: #ab29cc;
 
 }
 
