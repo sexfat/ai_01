@@ -161,6 +161,7 @@ article .img-desc {
 
   .related_posts {
      width: 100%;
+     margin: 0 auto;
   } 
 
   .related_posts .titleh3 {
@@ -171,13 +172,31 @@ article .img-desc {
 
   }
   .box-col4 {
-    width: 300px;
-    height: 100px;
-    background-color: rgb(255, 187, 0);
+    width: 21%;
+    min-height: 300px;
+
     float: left;
     margin: 0 30px;
   }
+
+  .box-col4 p {
+    color: rgb(196, 196, 196);
+    font-size: 14px;  
+  }
+
+  .box-col4 .link  {
+      text-align: right;
+  }
   
+
+  .table {
+      height: 600px;
+  }
+   table ,tr,td {
+       border: 1px solid #000;
+   }
+
+
 
   
 
