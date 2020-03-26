@@ -13,7 +13,7 @@ body {
 
 
 .wrapper {
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
 
 }
@@ -116,5 +116,24 @@ article .img-desc {
     text-align: center;
     font-size: 10px;
     width: 1200px;
+}
+
+
+@media all and (max-width:1200px){
+ 
+   
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  article {
+    width: 100%;
+    margin: 0 auto;
+}
+  
+
+
+
 }
 
