@@ -28,11 +28,11 @@ header {
 }
 
 #title {
-   font-size: 20px;
+   /* font-size: 20px; */
    display: inline-block;
 }
 
-
+/* css  選擇器寫法 */
 #title , .logo {
 color : yellow;
 }

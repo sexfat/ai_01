@@ -1,0 +1,11 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(190, 190, 190); */
+}
+/* p {
+    margin: 0;
+} */
+.inline {
+    display: block;
+}
