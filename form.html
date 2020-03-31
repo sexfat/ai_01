@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/layout.css">
+    <script src="js/scripts.js"></script>
+    <script>
+        console.log('行內');
+    </script>
+
     <title>表格練習</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header>
+        <header class="app">
             <div class="logo left">
                 <h1>表格練習</h1>
                 <span>表單練習</span>
@@ -46,26 +51,32 @@
                          <legend>會員註冊</legend>
                     <div>
                        <label for="account">*真實姓名</label>
-                       <input class="form_group" type="text" name="account" id="" required>
+                       <input class="form_group" type="text" name="account" id="" required placeholder="黃某某">
                     </div>
                     <div> <label for="password">*帳號</label>
-                       <input class="form_group" type="text" name="psw" id="" required></div>
+                       <input class="form_group" type="text" name="psw" id="" required placeholder="bryant..."></div>
                      <label for="psw">*密碼</label>
                      <input class="form_group" type="password" name="psw" maxlength="8" required> 
+                     <label for="">地區</label>
                      <select class="form_group" name="area" id="" required>
                          <option value="台北">台北</option>
                          <option value="新北">新北</option>
                          <option value="桃園">桃園</option>
                      </select>
+                     <br>
+                     <br>
                      <div>
-                        單選
+                         <h4>單選</h4>
+                        
                         <input type="radio" name="sex" id="" value="male">
                         <label for="男">男</label>
                         <input type="radio" name="sex" id="" value="female">
                         <label for="女">女</label>
                      </div>
+                     <br>
+                     <br>
                       <div>
-                        多選
+                        <h4>多選</h4>
 
                         <input type="checkbox" name="skill" id="" value="html">
                         <label for="">html</label>
@@ -74,6 +85,19 @@
                         <input type="checkbox" name="skill" id="" value="js">
                         <label for="">js</label>
                       </div>
+                      <br>
+                      <br>
+                      <div>
+                          <label for="">註解</label>
+                          <textarea  class="form_group" name="" id=""  rows="30">
+                            ...預設文字
+                          </textarea>
+                      </div>
+                      <input type="color" name="" id="">
+                      <input type="date" name="" id="">
+                      <input type="month" name="" id="">
+                      <input type="time" name="" id="">
+
                    
 
                      
