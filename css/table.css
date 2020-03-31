@@ -145,6 +145,20 @@ body {
      float:right;
  }
 
+ .width {
+    width:calc(100% - 100px - 1%); 
+    background-color: rgb(1, 255, 136);
+    height: 30px;
+ }
+
+ .width-100 {
+    width:100px; 
+    background-color: #ff4a4a;  
+    height: 30px;
+ }
+
+
+
 
 
 
