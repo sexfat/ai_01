@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-h1 ,h2 ,h3 ,h4 {
+h1 ,h2 ,h3 ,h4 , dl ,dt ,dd {
     padding: 0;
     margin: 0;
 } 
@@ -18,6 +18,7 @@ h1 ,h2 ,h3 ,h4 {
   width: 100%;
   margin: 0 auto;
   background-color: #383838;
+ 
 }
 
 .wrapper header {
@@ -25,6 +26,7 @@ h1 ,h2 ,h3 ,h4 {
     width: 960px;
     margin: 0 auto;
     height: 150px;
+  
 }
 
 
@@ -46,10 +48,14 @@ header .logo h1 {
 .right {
     float: right;
 }
+
+.first {
+ margin-left: 0 !important;
+}
 nav ul {
    list-style: none;
    position: relative;
-   top: 90px 
+   top: 40px 
 }
 
 nav ul li {
@@ -62,3 +68,57 @@ nav ul li {
      color: #fff;
      font-size: 24px;
  }
+
+
+.content {
+    width:100%;
+    height: 800px;
+}
+
+.banner {
+    width: 960px;
+    height: 360px;
+    margin: 20px auto;
+    background-color: #252525;
+}
+
+
+.content .row {
+   width: 960px;
+   margin: 0 auto; 
+}
+.content .row .col-3 {
+   width: 32.66666%;
+   /* background-color: rgb(160, 160, 160); */
+   margin-left: 1%;
+}
+
+
+.content .row .col-3 .box {
+    width: 100%;
+    height: 180px;
+     background-color: rgb(160, 160, 160);
+}
+
+.content .row .col-3 dl {
+    margin-top: 10px;
+}
+
+.content .row .col-3 dd {
+    color: #acacac
+}
+
+
+.content .row .col-3 h4 {
+    font-style: italic
+}
+
+
+
+
+
+
+
+
+
+
