@@ -46,13 +46,61 @@ body {
 
 
  .wrapper {
-    
      width: 1200px;
      margin: 0 auto;
-     background-color: #dfdfdf;
+     background-color: #838383;
  }
 
  .wrapper .box {
-    background-color:#8fcdff; 
+    background-color:#8fcdff;
+    
  }
+
+
+ .wrapper h1 {
+     border-bottom: 1px solid #acacac;
+     padding: 10px 20px;
+ }
+
+ section {
+     width: 100%;
+ }
+
+ .col_2 {
+     width: 49.5%;
+     display: block;
+     margin-left: 1%; 
+   
+    
+ }
+
+
+ .col_3 {
+    width: 32.6666%;
+    display: block;
+    margin-left: 1%; 
+}
+
+ .first {
+     margin-left:0;
+ }
+ 
+ .left {
+     float: left;
+ }
+  
+ .right {
+     float:right;
+ }
+
+
+
+
+
+
+
+
+
+
+ 
 
