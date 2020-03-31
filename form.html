@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <title>表格練習</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo left">
+                <h1>表格練習</h1>
+                <span>表單練習</span>
+            </div>
+            <nav class="right">
+                <ul class="nav">
+                        <li><a href="layout.html">版型練習</a></li>
+                        <li><a href="form.html">表單練習</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="content">
+        <div class="row">
+            <div class="sidebar left">
+                 會員登入
+            </div>
+            <div class="form right">
+                 <form action="#" method="GET">
+                     <div>
+                        <label for="account">帳號</label>
+                        <input class="form_group" type="text" name="account" id="">
+                     </div>
+                     <div> <label for="password">密碼</label>
+                        <input class="form_group" type="password" name="psw" id=""></div>
+                     <input id="submit" type="submit" value="送出">
+                     <input id="reset" type="reset" value="重置">
+                 </form>
+   <br><br><br>
+               
+                 <form action="#" method="GET">
+                     <fieldset>
+                         <legend>會員註冊</legend>
+                    <div>
+                       <label for="account">*真實姓名</label>
+                       <input class="form_group" type="text" name="account" id="" required>
+                    </div>
+                    <div> <label for="password">*帳號</label>
+                       <input class="form_group" type="text" name="psw" id="" required></div>
+                     <label for="psw">*密碼</label>
+                     <input class="form_group" type="password" name="psw" maxlength="8" required> 
+                     <select class="form_group" name="area" id="" required>
+                         <option value="台北">台北</option>
+                         <option value="新北">新北</option>
+                         <option value="桃園">桃園</option>
+                     </select>
+                     <div>
+                        單選
+                        <input type="radio" name="sex" id="" value="male">
+                        <label for="男">男</label>
+                        <input type="radio" name="sex" id="" value="female">
+                        <label for="女">女</label>
+                     </div>
+                      <div>
+                        多選
+
+                        <input type="checkbox" name="skill" id="" value="html">
+                        <label for="">html</label>
+                        <input type="checkbox" name="skill" id="" value="css">
+                        <label for="">css</label>
+                        <input type="checkbox" name="skill" id="" value="js">
+                        <label for="">js</label>
+                      </div>
+                   
+
+                     
+                    </fieldset> 
+                    <input id="submit" type="submit" value="送出">
+                    <input id="reset" type="reset" value="重置">
+                </form>
+
+   
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
