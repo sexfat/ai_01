@@ -75,10 +75,10 @@ body {
    line-height: 2.4rem;
    background-color: #7afd00;
    position: relative;
-   top:100px;
-   left: 90px;
-   
+   z-index: 1; 
+   left: 150px  
  }
+
 
 
  section .logo2 {
@@ -88,11 +88,20 @@ body {
     line-height: 2.4rem;
     background-color: #e65b0b;
     position: relative;
-    top:0px;
-    left: 0px;
-   
- 
+    left: 100px;
+    top: 30px;
+    
   }
+
+  .logo2 .logoinner {
+    width: 100px;
+    height: 30px;
+    background-color: #84ff3d;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
 
 
 
