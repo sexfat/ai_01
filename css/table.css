@@ -48,12 +48,12 @@ body {
  .wrapper {
      width: 1200px;
      margin: 0 auto;
-     background-color: #838383;
+     background-color: #ffffff;
  }
 
  .wrapper .box {
     background-color:#8fcdff;
-    
+    height: 400px;
  }
 
 
@@ -62,8 +62,42 @@ body {
      padding: 10px 20px;
  }
 
+
  section {
      width: 100%;
+ }
+
+
+ section .logo {
+   width: 100px;
+   height: 40px;
+   text-align: center;
+   line-height: 2.4rem;
+   background-color: #7afd00;
+   position: relative;
+   top:100px;
+   left: 90px;
+   
+ }
+
+
+ section .logo2 {
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    line-height: 2.4rem;
+    background-color: #e65b0b;
+    position: relative;
+    top:0px;
+    left: 0px;
+   
+ 
+  }
+
+
+
+ .clearfix {
+     clear: both;
  }
 
  .col_2 {
@@ -73,11 +107,20 @@ body {
    
     
  }
-
-
  .col_3 {
     width: 32.6666%;
     display: block;
+    margin-left: 1%; 
+}
+
+
+.col_4-1 {
+   width: 24.5%;
+   margin-left: 1%; 
+}
+
+.col_4-3 {
+    width: 74.5%;
     margin-left: 1%; 
 }
 
